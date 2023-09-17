@@ -1,0 +1,28 @@
+.card {
+    width: 48rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+
+    .wrapper {
+        background-color: blue;
+
+        .title {
+            height: 4rem;
+            background-color: yellow;
+        }
+
+        .desc {
+            height: 4rem;
+            background-color: red;
+        }
+
+        .due {
+            height: 4rem;
+            background-color: pink;
+        }
+    }
+}

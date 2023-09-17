@@ -1,0 +1,49 @@
+/* SignUp.scss */
+
+/* SignUp.scss */
+
+.SignUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Adjust as needed */
+    background-color: #f4f4f4;
+    /* Background color for the entire container */
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+        /* Text color for the title */
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        /* Border color for input fields */
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        /* Background color for the button */
+        color: #fff;
+        /* Text color for the button */
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0056b3;
+            /* Hover background color */
+        }
+    }
+}
